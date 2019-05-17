@@ -169,6 +169,14 @@ class HomeIndex extends React.Component {
                         <li>Build &amp; Virtualization: Jenkins, Docker, Kubernetes</li>
                         <li>Web: Apache, RESTless Web-Services</li>
                         </ul>
+                        <p><strong>Certifications:</strong></p>
+                        <ul>
+                        <li>Certified Professional for Software Architecture, Foundation Level (ISAQB)</li>
+                        <li>Robotic Process Automation / UIPath Developer Training (UIPath)</li>
+                        <li>Camunda BPM Process Engine Basic & Advanced Training (Camunda Services GmbH)</li>
+                        <li>ITIL v3 Foundation Certificate in IT Service Management (Serview GmbH)</li>
+                        <li>IT Project Management (Integrata AG)</li>
+                        </ul>
                         <p><strong>Spoken Languages:</strong></p>
                         <ul>
                         <li>German (mother tongue)</li>
