@@ -12,6 +12,7 @@ import thumb04 from '../assets/images/thumbs/04.jpg'
 import thumb05 from '../assets/images/thumbs/05.jpg'
 import thumb06 from '../assets/images/thumbs/06.jpg'
 import thumb07 from '../assets/images/thumbs/07.jpg'
+import thumb08 from '../assets/images/thumbs/08.jpg'
 
 import full01 from '../assets/images/fulls/01.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
@@ -20,10 +21,11 @@ import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 import full07 from '../assets/images/fulls/07.jpg'
+import full08 from '../assets/images/fulls/08.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '6', src: full06, thumbnail: thumb06, caption: 'Fraunhofer CML, Hamburg, Germany', description: 'Currently working as Software Engineer and Research Associate with development tasks in C#, .NET and Python for workforce scheduling and machine learning.'},
-    { id: '7', src: full07, thumbnail: thumb07, caption: 'Risk.Ident, Hamburg, Germany', description: 'Worked as IT Consultant with development tasks in Scala. Applying CI & CD using Jenkins, Docker and Kubernetes as well as Google Cloud.'},
+    { id: '8', src: full08, thumbnail: thumb08, caption: 'Robert Bosch GmbH, Dresden, Germany', description: 'Working as a Data Engineer for 300mm Semiconductor Lab Startup.'},
+    { id: '6', src: full06, thumbnail: thumb06, caption: 'Fraunhofer CML, Hamburg, Germany', description: 'Worked as Software Engineer and Research Associate with development tasks in C#, .NET and Python for workforce scheduling and machine learning.'},
     { id: '5', src: full05, thumbnail: thumb05, caption: 'Vizrt, Bergen, Norway', description: 'Worked as DevOps-Engineer with development tasks in Python and C++ for a backend transcoding engine. Video & Audio Output Test Automation as well as CI & CD with Jenkins.'},
     { id: '4', src: full04, thumbnail: thumb04, caption: 'Generali, Hamburg, Germany', description: 'Worked as Software-Developer and IT Consultant for a web-based workflow application written in Java, using OracleDB while migrating from BPM Process Engine to Camunda BPM. Moreover doing a (successful) PoC with Behaviour Driven Development.'},
     { id: '3', src: full03, thumbnail: thumb03, caption: 'Capgemini, Hamburg, Germany', description: 'Worked as Software-Developer in a multi-national distributed team for a international logistics client. Development of a package track & trace application in Java and with great focus on Test Automation.'},
@@ -117,8 +119,8 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = "Dennis Thiessen - IT Software Development"
-        const siteDescription = "Portfolio of Dennis Thiessen - IT Software Developer"
+        const siteTitle = "Dennis Thiessen - IT Software Engineering"
+        const siteDescription = "Portfolio of Dennis Thiessen - IT Software Engineering"
 	    const { res, invalid, displayErrors } = this.state;
 
         return (
@@ -136,7 +138,7 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h3>Are you looking for a freelance Full-Stack Developer / Consultant? <br />Look no more!</h3>
                         </header>
-                        <p>I&apos;m a <b>Software Developer</b> and <b>IT Consultant</b> who has work experience in <b>Java</b>, <b>C#</b> and <b>Python</b>. I did multiple projects for various companies and below you can find a short resume and project portfolio. 
+                        <p>I&apos;m a <b>Software Engineer</b> and <b>IT Consultant</b> who has work experience in <b>Java</b>, <b>C#</b> and <b>Python</b>. I did multiple projects for various companies and below you can find a short resume and project portfolio. 
                         If you are looking for a passionate <b>IT Freelancer</b>, don&apos;t hesitate to contact me. I mostly work in the D-A-CH area but I am also available for international remote work.</p>
                     
                 		<p>Here is a short enumeration of my skills & tools. Further below you can find the project & companies I have worked with. For a full CV, or if you need further information, just contact me.</p>
@@ -232,7 +234,7 @@ class HomeIndex extends React.Component {
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        Hamburg-Area<br />
+                                        Dresden<br />
                                         Germany
                                     </li>
                                     <li>

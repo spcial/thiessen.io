@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Dennis Thiessen - IT Software Development",
+    title: "Dennis Thiessen - IT Software Engineering",
     author: "Dennis Thiessen",
-    description: "Portfolio of Dennis Thiessen - IT Software Development Freelancer"
+    description: "Portfolio of Dennis Thiessen - IT Software Engineer Freelancer"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
